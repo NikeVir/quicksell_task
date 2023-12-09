@@ -1,0 +1,36 @@
+.card_main{
+    width: 100%;
+    padding: 0.2rem;
+    border: 1px solid #e0e0e0;
+    min-width: 250px;
+    border-radius: 0.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+}
+.card_elements{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.card_title{
+    display: flex;
+    justify-content: space-between;
+    color: #7f8389;
+    font-size: 12px;
+    font-weight: 600;
+}
+.card_task{
+    margin: 2px 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+.card_action{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 10px;
+}
+.card_action > div{
+    margin: 0 10px 0 0;
+}

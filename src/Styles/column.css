@@ -1,0 +1,33 @@
+.column_section{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 20px;
+  margin-top: 60px;
+}
+.column_main{
+    min-width: 250px;
+    max-width: 260px;
+    height: 100px; 
+}
+.column_header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.coulumn_header_option{
+    display: flex;
+    align-items: center;
+}
+.coulumn_header_option > div {
+   margin:0 5px 0 5px;
+}
+.column_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
